@@ -181,13 +181,6 @@ public class Road extends JPanel implements ActionListener {
                     myCar.health = myCar.health - Bomb.damage;
                 }
             }
-
-//            if(policeCar != null && zombie != null && policeCar.getRect().intersects(zombie.getRect())) { // получаем обьект и проверяем пересекаются ли наши треугольники
-//                concurrentHashMap.remove(zombie);
-//            }
-//            else if (policeCar!= null && bomb != null && policeCar.getRect().intersects(bomb.getRect())) {
-//                concurrentHashMap.remove(bomb);
-//            }
         }
     }
 }
